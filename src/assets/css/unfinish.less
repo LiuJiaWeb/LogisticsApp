@@ -1,0 +1,129 @@
+@charset 'utf-8';
+
+
+@vi:#ff952e;
+@333:#333;
+@666:#666;
+@999:#999;
+@toolbar:#aab8ca;
+@eee:#eee;
+
+@bg:#eeeeee;
+
+body{
+    background-color: @bg;
+}
+
+
+.switchbar{
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    left: 0;
+    top: 0.9rem;
+
+    .item{
+        padding: 0 0.2rem;
+        text-align: center;
+        line-height: 0.89rem;
+        height: 0.89rem;
+        color: @999;
+        box-sizing: border-box;
+        font-size: 0.3rem;
+    }
+
+    .active{
+        color: @vi;
+        border-bottom: 1px solid @vi;
+    }
+}
+
+
+.search-container{
+    width: 100%;
+    margin: 2rem 0 0.2rem 0;
+
+    .search{
+        display: block;
+        width: 6.9rem;
+        height: 0.7rem;
+        outline: none;
+        border: none;
+        border-radius: 0.7rem;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 0.7rem;
+        background-color: white;
+        color: @999;
+        font-size: 0.24rem;
+    }
+}
+
+.list-container{
+    width: 100%;
+    background-color: white;
+    
+    .list-item{
+        width: 100%;
+        height:1.2rem;
+        padding: 0.2rem 0.3rem;
+        border-bottom: 1px solid #eee;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .adress{
+       
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            width: 3rem;
+           
+
+            .shop-name{
+                font-size: 0.3rem;
+                color: @333;
+            }
+
+            .shop-adress{
+                font-size: 0.24rem;
+                color: @999;
+            }
+        }
+
+        .time{
+         
+            color: @333;
+            font-size: 0.24rem;
+
+            span{
+                color: @vi;
+                font-size: 0.3rem;
+            }
+        }
+
+        .distance{
+         
+            color: @333;
+            font-size: 0.24rem;
+
+            span{
+                color: @vi;
+                font-size: 0.3rem;
+            }
+        }
+    }
+
+
+}

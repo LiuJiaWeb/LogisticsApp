@@ -1,0 +1,166 @@
+@charset 'utf-8';
+@vi:#ff952e;
+@333:#333;
+@666:#666;
+@999:#999;
+@toolbar:#aab8ca;
+@eee:#eee;
+@bg:#ffebd8;
+
+@blue:#30aaff;
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0.9rem;
+    background-color: @bg;
+}
+
+
+.bg{
+    width: 100%;
+    height: 3.7rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.my-star{
+    width: 100%;
+    text-align: center;
+    color: @333;
+    font-size: 0.3rem;
+    font-weight: 700;
+}
+
+.my-score{
+    width: 100%;
+    text-align: center;
+    color: @vi;
+    font-size: 0.7rem;
+}
+
+
+.my-des{
+    width: 100%;
+    text-align: center;
+    color: @333;
+    font-size: 0.3rem;
+}
+
+.my-lev{
+    width: 80%;
+    padding-bottom: 0.2rem;
+    margin: 0 auto;
+    text-align: center;
+    color: @333;
+    font-size: 0.24rem;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.total-lev{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+    .lev-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .p1{
+            font-size: 0.48rem;
+            color: @blue;
+        }
+
+        .p2{
+            font-size: 0.3rem;
+            color: @333;
+            font-weight: 500;
+            line-height: 1;
+        }
+    }
+}
+
+
+.my-honor{
+    width: 80%;
+    margin:  0.4rem auto;
+    padding: 0.4rem 0.2rem 0rem 0.2rem;
+    background-color: #fff7ef;
+    box-shadow: lightgray 0px 0px 20px;
+
+    .title{
+        width: 100%;
+        font-size: 0.3rem;
+        font-weight: 700;
+        color: @333;
+        text-align: center;
+    }
+
+
+    .data{
+        margin-top: 0.6rem;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .data-item{
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0.5rem;
+
+
+            .row1{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+
+                .data-bar{
+                    width: 1.8rem;
+                    height: 0.2rem;
+                    border: 1px solid @vi;
+                    background-color: white;
+                    margin: 0 0.1rem;
+                    box-sizing: content-box;
+                    position: relative;
+                    overflow: hidden;
+
+                    .data-now{
+                        width: 40%;
+                        height: 100%;
+                        background-color: @vi;
+                        box-sizing: content-box;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                    }
+                }
+
+                .data-text{
+                    color: @vi;
+                    font-size: 0.24rem;
+                }
+            }
+
+            .row2{
+                font-size: 0.24rem;
+                color: @333;
+            }
+        }
+    }
+
+}

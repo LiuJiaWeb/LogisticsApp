@@ -1,0 +1,142 @@
+@charset 'utf-8';
+@vi:#ff952e;
+@333:#333;
+@666:#666;
+@999:#999;
+@toolbar:#aab8ca;
+@eee:#eee;
+@bg:#ffebd8;
+
+@blue:#30aaff;
+
+#account{
+    background-color: white;
+    padding-top: 0.9rem;
+}
+
+
+
+.container{
+    width: 100%;
+}
+
+
+.bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 4.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+    .balance-container{
+        margin: 0 auto;
+        width: 6.1rem;
+        height: 2.1rem;
+        border-radius: 0.2rem;
+        background-color: white;
+        box-shadow: @999 0 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .p1{
+            color: @333;
+            font-size: 0.36rem;
+            font-weight: 700;
+        }
+
+        .p2{
+            color: @vi;
+            font-size: 0.6rem;
+            line-height: 1.2;
+        }
+
+        .p3{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+            padding: 0 0.2rem;
+
+            .balance-detail{
+                font-size: 0.24rem;
+                color: @999;
+            }
+        }
+    }
+
+
+    .with-draw{
+        width: 5.5rem;
+        height: 0.88rem;
+        margin: 0 auto;
+        background-color: @vi;
+        border-radius: 0.88rem;
+        line-height: 0.88rem;
+        text-align: center;
+        color: white;
+        font-size: 0.3rem;
+    }
+}
+
+
+.card-title{
+    width: 100%;
+    padding: 0 0.3rem;
+    margin-top: 0.2rem;
+    font-size: 0.3rem;
+    color: @333;
+}
+
+
+.card-item{
+    width: 6.4rem;
+    height: 2rem;
+    margin: 0.2rem auto 0.4rem auto;
+    background-color: @blue;
+    border-radius: 0.1rem;
+    padding: 0.3rem 0;
+    position: relative;
+
+    .card-img{
+        width: 0.65rem;
+        position: absolute;
+        right: 0.2rem;
+        top: 0.7rem;
+    }
+
+    .line{
+        width: 100%;
+        height: 0.2rem;
+        background-color: black;
+    }
+
+    p{
+        color: white;
+        padding: 0 0.3rem;
+    }
+
+    .card-name{
+        font-size: 0.3rem;
+    }
+
+    .card-type{
+        font-size: 0.24rem;
+    }
+
+    .card-id{
+        font-size: 0.4rem;
+        line-height: 1.2;
+    }
+
+
+}
+

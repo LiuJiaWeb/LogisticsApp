@@ -1,0 +1,97 @@
+@charset 'utf-8';
+
+@vi:#ff952e;
+@333:#333;
+@666:#666;
+@999:#999;
+@toolbar:#aab8ca;
+@bg:#f7f7f7;
+
+.body{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.container{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1.6rem;
+
+
+    .logo{
+        width: 1.8rem;
+        height: auto;
+        text-align: center;
+
+        img{
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .auth{
+        width: 6rem;
+        margin: 1rem auto 0 auto;
+
+        input{
+            display: block;
+            width: 100%;
+            outline: none;
+            background-color: rgba(255,255,255,0);
+            margin: 0 auto;
+            border: none;
+            border-bottom: 1px solid lightgray;
+            height: 0.6rem;
+            padding: 0 0.1rem;
+            font-size: 0.3rem;
+        }
+
+        .password{
+            margin-top: 0.5rem;
+        }
+    }
+
+
+    .tool{
+        width: 6rem;
+        margin: 0.4rem auto 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        font-size: 0.24rem;
+       
+
+        .tool-item{
+            
+        }
+
+        .register{
+            color: @333;
+        }
+
+        .reset{
+            color: @333;
+        }
+    }
+
+    .submit{
+        margin: 0.7rem 0 0 0;
+        width: 5.5rem;
+        height: 0.9rem;
+        background-color: @vi;
+        text-align: center;
+        line-height: 0.9rem;
+        border-radius:0.9rem;
+        color: white;
+        font-size: 0.3rem;
+    }
+}

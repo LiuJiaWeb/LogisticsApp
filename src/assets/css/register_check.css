@@ -1,0 +1,56 @@
+@charset 'utf-8';
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  margin-top: 1.6rem;
+}
+.container .input-container {
+  width: 6rem;
+  margin: 0 auto;
+}
+.container .input-container .info {
+  width: 100%;
+  height: 0.6rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  font-size: 0.3rem;
+  color: #999;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.container .input-container .id-card .title {
+  font-size: 0.3rem;
+  color: #999;
+}
+.container .input-container .id-card .img-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0.2rem;
+}
+.container .input-container .id-card .img-container input {
+  margin-right: 0.2rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: block;
+  outline: none;
+  border: 1px dashed #999;
+  opacity: 1;
+}
+.container .submit {
+  width: 5.5rem;
+  height: 0.85rem;
+  text-align: center;
+  line-height: 0.85rem;
+  margin: 0.9rem auto 0 auto;
+  font-size: 0.3rem;
+  border-radius: 0.85rem;
+  color: #666;
+  background-color: #999;
+}

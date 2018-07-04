@@ -1,0 +1,144 @@
+@charset 'utf-8';
+body {
+  width: 100%;
+}
+.container {
+  width: 100%;
+  margin-top: 0.9rem;
+}
+.user-info {
+  width: 100%;
+  height: 2.4rem;
+  background-color: #ffb772;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.6rem 0 0.3rem;
+}
+.user-info .wave {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+}
+.user-info .wave img {
+  width: 100%;
+}
+.user-info .info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+.user-info .info .avatar {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.user-info .info .avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.user-info .info .user-name {
+  margin-left: 0.4rem;
+}
+.user-info .info .user-name .name {
+  color: white;
+  font-size: 0.3rem;
+}
+.user-info .info .user-name .star .star-text {
+  color: white;
+  text-decoration: underline;
+  font-size: 0.22rem;
+}
+.user-info .money {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.user-info .money .balance {
+  color: white;
+  font-size: 0.4rem;
+  line-height: 1;
+}
+.user-info .money .account {
+  color: white;
+  font-size: 0.3rem;
+  text-decoration: underline;
+}
+.wrap-container {
+  width: 100%;
+  padding: 0.1rem 0.3rem;
+  background-color: white;
+  margin-top: 0.2rem;
+}
+.wrap-container .title {
+  color: #333;
+  font-size: 0.3rem;
+}
+.online {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.online .online-text {
+  font-size: 0.3rem;
+  color: #333;
+}
+.order .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+.order .content .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.order .content .item .icon {
+  width: 60%;
+  padding-bottom: 60%;
+  background: center / contain no-repeat;
+}
+.order .content .item .des {
+  margin-top: 0.1rem;
+  font-size: 0.22rem;
+  color: #999;
+}
+.service .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+.service .content .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.service .content .item .icon {
+  width: 60%;
+  padding-bottom: 60%;
+  background: center / contain no-repeat;
+}
+.service .content .item .des {
+  margin-top: 0.1rem;
+  font-size: 0.22rem;
+  color: #999;
+}

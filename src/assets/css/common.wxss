@@ -1,0 +1,93 @@
+@charset 'utf-8';
+/*common.css*/
+@font-face {
+  font-family: 'iconfont';
+  /* project id 717969 */
+  src: url('//at.alicdn.com/t/font_717969_oyczazoem.eot');
+  src: url('//at.alicdn.com/t/font_717969_oyczazoem.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_717969_oyczazoem.woff') format('woff'), url('//at.alicdn.com/t/font_717969_oyczazoem.ttf') format('truetype'), url('//at.alicdn.com/t/font_717969_oyczazoem.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-size: 0.14rem;
+  /*全局默认字体为 14px，如果是12px会很小，优化体验*/
+  line-height: 1.8;
+  width: 100%;
+  overflow-x: hidden;
+}
+div,
+p,
+input,
+button,
+textarea,
+a {
+  box-sizing: border-box;
+}
+a {
+  display: block;
+}
+.header {
+  width: 100%;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  box-sizing: border-box;
+  color: white;
+  background-color: #38373d;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-size: 0.36rem;
+}
+.header .back {
+  width: 0.4rem;
+  height: 0.4rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 50%;
+  margin-top: -0.2rem;
+  text-align: center;
+  line-height: 0.4rem;
+  color: white;
+  font-size: 0.4rem;
+}
+.navbar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  border-top: 1px solid #eee;
+  overflow: hidden;
+}
+.navbar .navbar-item {
+  padding: 0 0.2rem;
+  height: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.22rem;
+  color: #999;
+}
+.navbar .navbar-item .icon {
+  font-size: 0.45rem;
+  text-align: center;
+  margin-bottom: -0.18rem;
+}
+.navbar .router-link-active {
+  color: #ff952e;
+}

@@ -1,0 +1,224 @@
+@charset 'utf-8';
+body {
+  background-color: #eeeeee;
+}
+.switchbar {
+  width: 100%;
+  height: 0.9rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  left: 0;
+  top: 0.9rem;
+}
+.switchbar .item {
+  padding: 0 0.2rem;
+  text-align: center;
+  line-height: 0.89rem;
+  height: 0.89rem;
+  color: #999;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  font-size: 0.3rem;
+  width: 50%;
+}
+.switchbar .active {
+  color: #ff952e;
+  border-bottom: 1px solid #ff952e;
+}
+.search-container {
+  width: 100%;
+  margin: 2rem 0 0.2rem 0;
+}
+.search-container .search {
+  display: block;
+  width: 6.9rem;
+  height: 0.7rem;
+  outline: none;
+  border: none;
+  border-radius: 0.7rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 0.7rem;
+  background-color: white;
+  color: #999;
+  font-size: 0.24rem;
+}
+.count-container {
+  width: 100%;
+  height: 1.4rem;
+  border-bottom: 1px solid #eee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.count-container .count-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.count-container .count-item .p1 {
+  color: #30aaff;
+  font-size: 0.48rem;
+  line-height: 1;
+}
+.count-container .count-item .p1 span {
+  font-size: 0.24rem;
+}
+.count-container .count-item .p2 {
+  color: #333;
+  font-size: 0.24rem;
+  line-height: 1;
+  margin-top: 0.1rem;
+}
+.count-month {
+  width: 100%;
+  line-height: 0.7rem;
+  background-color: #eee;
+  color: #333;
+  padding: 0 0.3rem;
+  font-size: 0.3rem;
+}
+.list-container {
+  width: 100%;
+  background-color: white;
+}
+.list-container .list-item {
+  width: 100%;
+  height: 1.2rem;
+  padding: 0.2rem 0.3rem;
+  border-bottom: 1px solid #eee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.list-container .list-item .adress {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 3rem;
+}
+.list-container .list-item .adress .shop-name {
+  font-size: 0.3rem;
+  color: #333;
+}
+.list-container .list-item .adress .shop-adress {
+  font-size: 0.24rem;
+  color: #999;
+}
+.list-container .list-item .time {
+  color: #333;
+  font-size: 0.24rem;
+}
+.list-container .list-item .time span {
+  color: #ff952e;
+  font-size: 0.3rem;
+}
+.list-container .list-item .distance {
+  color: #333;
+  font-size: 0.24rem;
+}
+.list-container .list-item .distance span {
+  color: #ff952e;
+  font-size: 0.3rem;
+}

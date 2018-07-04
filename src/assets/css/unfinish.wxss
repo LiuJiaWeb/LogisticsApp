@@ -1,0 +1,92 @@
+@charset 'utf-8';
+body {
+  background-color: #eeeeee;
+}
+.switchbar {
+  width: 100%;
+  height: 0.9rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  left: 0;
+  top: 0.9rem;
+}
+.switchbar .item {
+  padding: 0 0.2rem;
+  text-align: center;
+  line-height: 0.89rem;
+  height: 0.89rem;
+  color: #999;
+  box-sizing: border-box;
+  font-size: 0.3rem;
+}
+.switchbar .active {
+  color: #ff952e;
+  border-bottom: 1px solid #ff952e;
+}
+.search-container {
+  width: 100%;
+  margin: 2rem 0 0.2rem 0;
+}
+.search-container .search {
+  display: block;
+  width: 6.9rem;
+  height: 0.7rem;
+  outline: none;
+  border: none;
+  border-radius: 0.7rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 0.7rem;
+  background-color: white;
+  color: #999;
+  font-size: 0.24rem;
+}
+.list-container {
+  width: 100%;
+  background-color: white;
+}
+.list-container .list-item {
+  width: 100%;
+  height: 1.2rem;
+  padding: 0.2rem 0.3rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-container .list-item .adress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 3rem;
+}
+.list-container .list-item .adress .shop-name {
+  font-size: 0.3rem;
+  color: #333;
+}
+.list-container .list-item .adress .shop-adress {
+  font-size: 0.24rem;
+  color: #999;
+}
+.list-container .list-item .time {
+  color: #333;
+  font-size: 0.24rem;
+}
+.list-container .list-item .time span {
+  color: #ff952e;
+}
+.list-container .list-item .distance {
+  color: #333;
+  font-size: 0.24rem;
+}
+.list-container .list-item .distance span {
+  color: #ff952e;
+}

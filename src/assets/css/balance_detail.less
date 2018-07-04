@@ -1,0 +1,61 @@
+@charset 'utf-8';
+@vi:#ff952e;
+@333:#333;
+@666:#666;
+@999:#999;
+@toolbar:#aab8ca;
+@eee:#eee;
+@bg:#ffebd8;
+
+@blue:#30aaff;
+
+
+#balance_detail{
+    padding-top: 0.9rem;
+    background-color: @eee;
+}
+
+
+.container{
+    width: 100%;
+
+
+    .detail-item{
+        width: 100%;
+        height: 1.2rem;
+        border-bottom: 1px solid @eee;
+        padding: 0 0.3rem;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+
+            .p1{
+                color: @333;
+                font-size: 0.3rem;
+            }
+
+            .p2{
+                font-size: 0.24rem;
+                color: @999;
+
+                .time{
+                    margin-left: 0.2rem;
+                }
+            }
+        }
+
+
+        .money{
+            font-size: 0.36rem;
+            color: @vi;
+        }
+    }
+}

@@ -1,0 +1,219 @@
+@charset 'utf-8';
+.container {
+  width: 100%;
+  height: 100vh;
+  margin-top: 0.9rem;
+  background-color: #ffebd8;
+}
+.bg {
+  width: 100%;
+  height: 3.7rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.my-star {
+  width: 100%;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+  font-weight: 700;
+}
+.my-score {
+  width: 100%;
+  text-align: center;
+  color: #ff952e;
+  font-size: 0.7rem;
+}
+.my-des {
+  width: 100%;
+  text-align: center;
+  color: #333;
+  font-size: 0.3rem;
+}
+.my-lev {
+  width: 80%;
+  padding-bottom: 0.2rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #333;
+  font-size: 0.24rem;
+  border-bottom: 1px solid lightgray;
+}
+.total-lev {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.total-lev .lev-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.total-lev .lev-item .p1 {
+  font-size: 0.48rem;
+  color: #30aaff;
+}
+.total-lev .lev-item .p2 {
+  font-size: 0.3rem;
+  color: #333;
+  font-weight: 500;
+  line-height: 1;
+}
+.my-honor {
+  width: 80%;
+  margin: 0.4rem auto;
+  padding: 0.4rem 0.2rem 0rem 0.2rem;
+  background-color: #fff7ef;
+  box-shadow: lightgray 0px 0px 20px;
+}
+.my-honor .title {
+  width: 100%;
+  font-size: 0.3rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+.my-honor .data {
+  margin-top: 0.6rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.my-honor .data .data-item {
+  width: 48%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.my-honor .data .data-item .row1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.my-honor .data .data-item .row1 .data-bar {
+  width: 1.8rem;
+  height: 0.2rem;
+  border: 1px solid #ff952e;
+  background-color: white;
+  margin: 0 0.1rem;
+  -moz-box-sizing: content-box;
+       box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+}
+.my-honor .data .data-item .row1 .data-bar .data-now {
+  width: 40%;
+  height: 100%;
+  background-color: #ff952e;
+  -moz-box-sizing: content-box;
+       box-sizing: content-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.my-honor .data .data-item .row1 .data-text {
+  color: #ff952e;
+  font-size: 0.24rem;
+}
+.my-honor .data .data-item .row2 {
+  font-size: 0.24rem;
+  color: #333;
+}
